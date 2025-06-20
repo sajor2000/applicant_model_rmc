@@ -6,7 +6,7 @@ import numpy as np
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-from src.processors.application_processor import ApplicationProcessor
+from github_repo.src.processors.application_processor import ApplicationProcessor
 
 
 class TestApplicationProcessor:
@@ -31,9 +31,9 @@ class TestApplicationProcessor:
     @pytest.fixture
     def mock_processor(self):
         """Create a mock processor with stubbed dependencies."""
-        with patch('src.processors.application_processor.ModelLoader') as mock_loader:
-            with patch('src.processors.application_processor.EssayAnalyzer') as mock_essay:
-                with patch('src.processors.application_processor.FeatureEngineer') as mock_feature:
+        with patch('github_repo.src.processors.application_processor.ModelLoader') as mock_loader:
+            with patch('github_repo.src.processors.application_processor.EssayAnalyzer') as mock_essay:
+                with patch('github_repo.src.processors.application_processor.FeatureEngineer') as mock_feature:
                     processor = ApplicationProcessor()
                     
                     # Mock the classifier
