@@ -1,14 +1,73 @@
 {
 	"folders": [
 		{
+			"name": "🏥 RMC AI Admissions - Main Project",
 			"path": "."
 		},
 		{
-			"path": "../../../Downloads/AdmissionsDataset/2022 Applicants Reviewed by Trusted Reviewers"
+			"name": "📊 Data: 2022 Admissions",
+			"path": "data/2022 Applicants Reviewed by Trusted Reviewers"
 		},
 		{
-			"path": "../../../Downloads/AdmissionsDataset/2023 Applicants Reviewed by Trusted Reviewers"
+			"name": "📊 Data: 2023 Admissions", 
+			"path": "data/2023 Applicants Reviewed by Trusted Reviewers"
+		},
+		{
+			"name": "📊 Data: 2024 Test Set",
+			"path": "data/2024 Applicants Reviewed by Trusted Reviewers"
+		},
+		{
+			"name": "🤖 Model Files",
+			"path": "models"
+		},
+		{
+			"name": "🧪 Scripts & Tools",
+			"path": "scripts"
+		},
+		{
+			"name": "📱 Web Application",
+			"path": "web_app"
+		},
+		{
+			"name": "📄 Documentation",
+			"path": "docs"
+		},
+		{
+			"name": "📈 Results & Reports",
+			"path": "output"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/*.pyc": true,
+			"**/.DS_Store": true,
+			"**/.pytest_cache": true,
+			"**/node_modules": true,
+			".env": true,
+			".env.*": true
+		},
+		"python.defaultInterpreterPath": ".venv/bin/python",
+		"python.formatting.provider": "black",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"editor.formatOnSave": true,
+		"editor.rulers": [88],
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#1a4d2e",
+			"titleBar.activeBackground": "#1a4d2e",
+			"titleBar.activeForeground": "#ffffff"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"ms-python.vscode-pylance",
+			"ms-toolsai.jupyter",
+			"yzhang.markdown-all-in-one",
+			"streetsidesoftware.code-spell-checker"
+		]
+	}
 }
