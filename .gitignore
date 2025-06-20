@@ -36,7 +36,8 @@ models/*.pkl
 models/*.joblib
 models/*.h5
 !models/cascade_model_2024.pkl
-!models/cascade_model_2022_2023.pkl
+!models/production_model_93_8_accuracy.pkl
+!models/refined_gpt4o_latest.pkl
 
 # Logs
 *.log

@@ -2,17 +2,19 @@
 
 ## Available Models
 
-### cascade_model_2022_2023.pkl
+### production_model_93_8_accuracy.pkl (MAIN PRODUCTION MODEL)
 - **Training Data**: Combined 2022 and 2023 admission cycles
-- **Model Type**: XGBoost Cascade Classifier
-- **Accuracy**: 93.8% on 2024 holdout test set
-- **Purpose**: Production model for admissions screening
+- **Model Type**: Refined Cascade Classifier with GPT-4o integration
+- **Accuracy**: 93.8% on 2024 holdout test set (38 errors out of 613)
+- **Adjacent Accuracy**: 100% (no predictions off by more than 1 quartile)
+- **Purpose**: Production model for 2025+ admissions screening
 - **Features**: 
   - Demographics (age, gender, citizenship, first_generation)
   - Experience hours (clinical, research, volunteer)
   - Service rating
   - GPT-4o essay analysis scores (11 dimensions)
-- **File Size**: ~1.1 MB
+- **File Size**: ~1.7 MB
+- **Note**: This is the same as refined_gpt4o_latest.pkl
 
 ### refined_gpt4o_latest.pkl
 - **Training Data**: 2022-2023 data with GPT-4o features
