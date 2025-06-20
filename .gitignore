@@ -15,8 +15,11 @@ pip-delete-this-directory.txt
 dist/
 build/
 
-# Environment variables
+# Environment variables - NEVER COMMIT THESE
 .env
+.env.*
+*.env
+.env.txt
 .env.local
 .env.production
 
