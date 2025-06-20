@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/AdmissionsDataset/2022 Applicants Reviewed by Trusted Reviewers"
+		},
+		{
+			"path": "../../../Downloads/AdmissionsDataset/2023 Applicants Reviewed by Trusted Reviewers"
+		}
+	],
+	"settings": {}
+}

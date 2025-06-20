@@ -1,0 +1,77 @@
+================================================================================
+CONSISTENT FEATURES REPORT
+================================================================================
+
+Total features analyzed: 63
+Features kept (consistent & <75% missing): 49
+Features removed: 14
+
+## KEPT FEATURES BY CATEGORY:
+
+### Demographics (3 features):
+  - age (max 0.0% missing)
+  - gender (max 0.0% missing)
+  - citizenship (max 0.0% missing)
+
+### Socioeconomic (5 features):
+  - first_generation_ind (max 0.0% missing)
+  - disadvantaged_ind (max 0.0% missing)
+  - ses_value (max 0.0% missing)
+  - pell_grant (max 0.0% missing)
+  - fee_assistance_program (max 0.0% missing)
+
+### Experience Hours (8 features):
+  - exp_hour_total (max 0.0% missing)
+  - exp_hour_research (max 9.2% missing)
+  - exp_hour_volunteer_med (max 12.0% missing)
+  - exp_hour_volunteer_non_med (max 15.1% missing)
+  - exp_hour_employ_med (max 27.2% missing)
+  - exp_hour_shadowing (max 16.0% missing)
+  - healthcare_total_hours (max 0.0% missing)
+  - comm_service_total_hours (max 0.0% missing)
+
+### Financial (2 features):
+  - student_loan_percentage (max 11.1% missing)
+  - academic_scholarship_percentage (max 11.1% missing)
+
+### Application Info (4 features):
+  - appl_year (max 0.0% missing)
+  - service_rating_numerical (max 0.0% missing)
+  - service_rating_categorical (max 0.0% missing)
+  - application_review_score (max 0.0% missing)
+
+### Flags (4 features):
+  - felony_ind (max 0.0% missing)
+  - misdemeanor_ind (max 0.0% missing)
+  - inst_action_ind (max 0.0% missing)
+  - investigation_ind (max 0.0% missing)
+
+### Other (6 features):
+  - healthcare_ind (max 0.0% missing)
+  - comm_service_ind (max 0.0% missing)
+  - military_service (max 0.0% missing)
+  - ru_ind (max 0.0% missing)
+  - number_in_household (max 0.0% missing)
+  - num_dependents (max 0.0% missing)
+
+## REMOVED FEATURES (>75% missing or inconsistent):
+  - prev_applied_rush: 88.3% missing
+  - eo_level: 78.8% missing
+  - Hrdshp_Comments: 100.0% missing
+  - Inst_Action_Desc: 95.0% missing
+  - Prev_Matric_Sschool: 100.0% missing
+  - Prev_Matric_Year: 99.8% missing
+  - Prev_Matric_Desc: 100.0% missing
+  - Felony_Desc: 100.0% missing
+  - Misdemeanor_Desc: 99.8% missing
+  - Military_Discharge_Desc: 100.0% missing
+  - military_service_status: 100.0% missing
+  - amcas_id.1: only in [2022]
+  - total_gpa_trend: only in [2022]
+  - bcpm_gpa_trend: only in [2022]
+
+## MISSING DATA SUMMARY FOR KEPT FEATURES:
+  - exp_hour_employ_med: avg 19.0%, max 27.2%
+  - exp_hour_shadowing: avg 14.3%, max 16.0%
+  - exp_hour_volunteer_non_med: avg 13.0%, max 15.1%
+  - exp_hour_volunteer_med: avg 10.8%, max 12.0%

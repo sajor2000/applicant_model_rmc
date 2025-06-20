@@ -1,0 +1,173 @@
+{
+  "total_applicants": 613,
+  "quartile_distribution": {
+    "Q1": 154,
+    "Q4": 153,
+    "Q3": 153,
+    "Q2": 153
+  },
+  "low_confidence_count": 129,
+  "timestamp": "2025-06-19T18:58:44.649342",
+  "top_per_quartile": {
+    "Q1": [
+      {
+        "amcas_id": 15908026,
+        "percentile": 100.0,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15364058,
+        "percentile": 99.836867862969,
+        "within_quartile_rank": 117
+      },
+      {
+        "amcas_id": 15953040,
+        "percentile": 99.673735725938,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15799117,
+        "percentile": 99.510603588907,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15493804,
+        "percentile": 99.34747145187602,
+        "within_quartile_rank": 151
+      }
+    ],
+    "Q2": [
+      {
+        "amcas_id": 15450572,
+        "percentile": 74.87765089722676,
+        "within_quartile_rank": 72
+      },
+      {
+        "amcas_id": 15451876,
+        "percentile": 74.71451876019576,
+        "within_quartile_rank": 48
+      },
+      {
+        "amcas_id": 15448918,
+        "percentile": 74.55138662316476,
+        "within_quartile_rank": 2
+      },
+      {
+        "amcas_id": 15768951,
+        "percentile": 74.38825448613376,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15533795,
+        "percentile": 74.22512234910276,
+        "within_quartile_rank": 132
+      }
+    ],
+    "Q3": [
+      {
+        "amcas_id": 15918001,
+        "percentile": 49.9184339314845,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15176107,
+        "percentile": 49.7553017944535,
+        "within_quartile_rank": 92
+      },
+      {
+        "amcas_id": 15195217,
+        "percentile": 49.59216965742252,
+        "within_quartile_rank": 147
+      },
+      {
+        "amcas_id": 14963367,
+        "percentile": 49.42903752039152,
+        "within_quartile_rank": 139
+      },
+      {
+        "amcas_id": 15606009,
+        "percentile": 49.26590538336052,
+        "within_quartile_rank": 97
+      }
+    ],
+    "Q4": [
+      {
+        "amcas_id": 15758389,
+        "percentile": 24.95921696574225,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15573364,
+        "percentile": 24.79608482871126,
+        "within_quartile_rank": 83
+      },
+      {
+        "amcas_id": 15635496,
+        "percentile": 24.63295269168026,
+        "within_quartile_rank": 89
+      },
+      {
+        "amcas_id": 15773009,
+        "percentile": 24.469820554649267,
+        "within_quartile_rank": 12
+      },
+      {
+        "amcas_id": 15410342,
+        "percentile": 24.306688417618272,
+        "within_quartile_rank": 106
+      }
+    ]
+  },
+  "review_priorities": [
+    {
+      "amcas_id": 15908026,
+      "quartile": "Q1",
+      "confidence_score": 51.581886901768456
+    },
+    {
+      "amcas_id": 15364058,
+      "quartile": "Q1",
+      "confidence_score": 42.40756494216896
+    },
+    {
+      "amcas_id": 13872117,
+      "quartile": "Q1",
+      "confidence_score": 30.544191924275065
+    },
+    {
+      "amcas_id": 15953268,
+      "quartile": "Q1",
+      "confidence_score": 50.651822342923666
+    },
+    {
+      "amcas_id": 15755721,
+      "quartile": "Q1",
+      "confidence_score": 40.29704042235722
+    },
+    {
+      "amcas_id": 15424896,
+      "quartile": "Q1",
+      "confidence_score": 48.46379101131885
+    },
+    {
+      "amcas_id": 14468341,
+      "quartile": "Q1",
+      "confidence_score": 44.92066390989666
+    },
+    {
+      "amcas_id": 15739724,
+      "quartile": "Q1",
+      "confidence_score": 37.0233448262846
+    },
+    {
+      "amcas_id": 15038734,
+      "quartile": "Q1",
+      "confidence_score": 55.888413654404424
+    },
+    {
+      "amcas_id": 15621232,
+      "quartile": "Q1",
+      "confidence_score": 58.31757958968604
+    }
+  ]
+}

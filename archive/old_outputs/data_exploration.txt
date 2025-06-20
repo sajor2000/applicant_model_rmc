@@ -1,0 +1,95 @@
+Loading Applicants.xlsx...
+
+--- Applicants.xlsx Info ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 437 entries, 0 to 436
+Data columns (total 63 columns):
+ #   Column                                   Non-Null Count  Dtype  
+---  ------                                   --------------  -----  
+ 0   Appl_Year                                437 non-null    int64  
+ 1   Amcas_ID                                 437 non-null    int64  
+ 2   Prev_Applied_Rush                        73 non-null     object 
+ 3   Age                                      437 non-null    int64  
+ 4   Gender                                   437 non-null    object 
+ 5   Citizenship                              437 non-null    object 
+ 6   SES_Value                                437 non-null    object 
+ 7   Eo_Level                                 121 non-null    object 
+ 8   First_Generation_Ind                     437 non-null    object 
+ 9   Disadvantanged_Ind                       437 non-null    object 
+ 10  Hrdshp_Comments                          115 non-null    object 
+ 11  RU_Ind                                   437 non-null    object 
+ 12  Num_Dependents                           437 non-null    int64  
+ 13  Inst_Action_Ind                          437 non-null    object 
+ 14  Inst_Action_Desc                         29 non-null     object 
+ 15  Prev_Matric_Ind                          437 non-null    object 
+ 16  Prev_Matric_Sschool                      0 non-null      float64
+ 17  Prev_Matric_Year                         1 non-null      float64
+ 18  Prev_Matric_Desc                         0 non-null      float64
+ 19  Investigation_Ind                        437 non-null    object 
+ 20  Felony_Ind                               437 non-null    object 
+ 21  Felony_Desc                              0 non-null      float64
+ 22  Misdemeanor_Ind                          437 non-null    object 
+ 23  Misdemeanor_Desc                         7 non-null      object 
+ 24  Military_Discharge_Ind                   437 non-null    object 
+ 25  Military_HON_Discharge_Ind               437 non-null    int64  
+ 26  Military_Discharge_Desc                  0 non-null      float64
+ 27  Exp_Hour_Total                           437 non-null    int64  
+ 28  Exp_Hour_Research                        397 non-null    float64
+ 29  Exp_Hour_Volunteer_Med                   396 non-null    float64
+ 30  Exp_Hour_Volunteer_Non_Med               371 non-null    float64
+ 31  Exp_Hour_Employ_Med                      318 non-null    float64
+ 32  Exp_Hour_Shadowing                       379 non-null    float64
+ 33  Comm_Service_Ind                         437 non-null    object 
+ 34  Comm_Service_Total_Hours                 437 non-null    int64  
+ 35  HealthCare_Ind                           437 non-null    object 
+ 36  HealthCare_Total_Hours                   437 non-null    int64  
+ 37  Highest_Test_Date_2015                   437 non-null    object 
+ 38  Under_School                             436 non-null    object 
+ 39  Major_Long_Desc                          436 non-null    object 
+ 40  Military_Service                         437 non-null    object 
+ 41  Military_Service_Status                  0 non-null      float64
+ 42  Pell_Grant                               437 non-null    object 
+ 43  Fee_Assistance_Program                   437 non-null    object 
+ 44  Childhood_Med_Underserved_Self_Reported  437 non-null    object 
+ 45  Family_Income_Level                      437 non-null    object 
+ 46  Number_in_Household                      437 non-null    int64  
+ 47  Family_Assistance_Program                437 non-null    object 
+ 48  Paid_Employment_BF_18                    437 non-null    object 
+ 49  Contribution_to_Family                   437 non-null    object 
+ 50  Academic_Scholarship_Percentage          394 non-null    float64
+ 51  Finacial_Need_Based_Percentage           394 non-null    float64
+ 52  Student_Loan_Percentage                  394 non-null    float64
+ 53  Other_Loan_Percentage                    394 non-null    float64
+ 54  Family_Contribution_Percentage           394 non-null    float64
+ 55  Applicant_Contribution_Percentage        394 non-null    float64
+ 56  Other_Percentage                         394 non-null    float64
+ 57  Application Review Score                 437 non-null    int64  
+ 58  Service Rating (Categorical)             437 non-null    object 
+ 59  Service Rating (Numerical)               437 non-null    int64  
+ 60  AMCAS ID                                 437 non-null    int64  
+ 61  Total_GPA_Trend                          240 non-null    float64
+ 62  BCPM_GPA_Trend                           228 non-null    float64
+dtypes: float64(20), int64(12), object(31)
+memory usage: 215.2+ KB
+
+--- First 5 Rows ---
+   Appl_Year  Amcas_ID Prev_Applied_Rush  Age  Gender Citizenship  ... Application Review Score Service Rating (Categorical) Service Rating (Numerical)  AMCAS ID Total_GPA_Trend BCPM_GPA_Trend
+0       2022  12950085        2014; 2021   36    Male         USA  ...                        0        Lacking/Does Not Meet                          1  12950085             1.0            1.0
+1       2022  13099483               NaN   40    Male         TZA  ...                       11                  Significant                          3  13099483             NaN            NaN
+2       2022  13489485               NaN   32    Male         USA  ...                        0                     Adequate                          2  13489485             1.0            1.0
+3       2022  13568734              2019   35    Male         USA  ...                       15                  Significant                          3  13568734             0.0            0.0
+4       2022  13653263               NaN   32  Female         USA  ...                       19                  Significant                          3  13653263             0.0            0.0
+
+[5 rows x 63 columns]
+
+--- Potential Target Columns ---
+Found potential score columns: ['Application Review Score', 'Service Rating (Categorical)', 'Service Rating (Numerical)']
+       Application Review Score  Service Rating (Numerical)
+count                437.000000                  437.000000
+mean                  16.073227                    3.066362
+std                    7.295163                    0.912547
+min                    0.000000                    1.000000
+25%                   15.000000                    3.000000
+50%                   17.000000                    3.000000
+75%                   21.000000                    4.000000
+max                   25.000000                    4.000000

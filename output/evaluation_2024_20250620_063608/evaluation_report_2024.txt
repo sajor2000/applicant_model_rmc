@@ -1,0 +1,52 @@
+============================================================
+2024 HOLDOUT TEST EVALUATION REPORT
+============================================================
+
+Evaluation Date: 2025-06-20 06:36:09
+Test Set Size: 613 applicants
+
+OVERALL PERFORMANCE:
+------------------------------
+Exact Match Accuracy: 93.8%
+Adjacent Accuracy (±1): 100.0%
+
+PER-QUARTILE BREAKDOWN:
+------------------------------
+
+Q1 Performance:
+  Count: 72
+  Accuracy: 91.7%
+  Correctly Predicted: 66
+
+Q2 Performance:
+  Count: 293
+  Accuracy: 94.2%
+  Correctly Predicted: 276
+
+Q3 Performance:
+  Count: 121
+  Accuracy: 94.2%
+  Correctly Predicted: 114
+
+Q4 Performance:
+  Count: 127
+  Accuracy: 93.7%
+  Correctly Predicted: 119
+
+
+CONFUSION MATRIX:
+------------------------------
+True\Pred   Q4    Q3    Q2    Q1
+Q4         119     8     0     0
+Q3           2   114     5     0
+Q2           0     4   276    13
+Q1           0     0     6    66
+
+
+KEY INSIGHTS:
+------------------------------
+✓ Model achieved target accuracy of >82% (93.8%)
+✓ Excellent adjacent accuracy: 100.0%
+
+Best performing: Q3 (94.2%)
+Needs improvement: Q1 (91.7%)

@@ -1,0 +1,66 @@
+Starting model training process...
+Loading data...
+Data loaded successfully from 1. Applicants.xlsx.
+
+--- Columns in 1. Applicants.xlsx ---
+Index(['Appl_Year', 'Amcas_ID', 'Prev_Applied_Rush', 'Age', 'Gender',
+       'Citizenship', 'SES_Value', 'Eo_Level', 'First_Generation_Ind',
+       'Disadvantanged_Ind', 'Hrdshp_Comments', 'RU_Ind', 'Num_Dependents',
+       'Inst_Action_Ind', 'Inst_Action_Desc', 'Prev_Matric_Ind',
+       'Prev_Matric_Sschool', 'Prev_Matric_Year', 'Prev_Matric_Desc',
+       'Investigation_Ind', 'Felony_Ind', 'Felony_Desc', 'Misdemeanor_Ind',
+       'Misdemeanor_Desc', 'Military_Discharge_Ind',
+       'Military_HON_Discharge_Ind', 'Military_Discharge_Desc',
+       'Exp_Hour_Total', 'Exp_Hour_Research', 'Exp_Hour_Volunteer_Med',
+       'Exp_Hour_Volunteer_Non_Med', 'Exp_Hour_Employ_Med',
+       'Exp_Hour_Shadowing', 'Comm_Service_Ind', 'Comm_Service_Total_Hours',
+       'HealthCare_Ind', 'HealthCare_Total_Hours', 'Highest_Test_Date_2015',
+       'Under_School', 'Major_Long_Desc', 'Military_Service',
+       'Military_Service_Status', 'Pell_Grant', 'Fee_Assistance_Program',
+       'Childhood_Med_Underserved_Self_Reported', 'Family_Income_Level',
+       'Number_in_Household', 'Family_Assistance_Program',
+       'Paid_Employment_BF_18', 'Contribution_to_Family',
+       'Academic_Scholarship_Percentage', 'Finacial_Need_Based_Percentage',
+       'Student_Loan_Percentage', 'Other_Loan_Percentage',
+       'Family_Contribution_Percentage', 'Applicant_Contribution_Percentage',
+       'Other_Percentage', 'Application Review Score',
+       'Service Rating (Categorical)', 'Service Rating (Numerical)',
+       'AMCAS ID', 'Total_GPA_Trend', 'BCPM_GPA_Trend'],
+      dtype='object')
+
+--- Unique values in key categorical columns ---
+Unique values in 'Disadvantanged_Ind': ['No' 'Yes']
+Unique values in 'First_Generation_Ind': ['No' 'Yes']
+Unique values in 'SES_Value': ['Yes' 'No']
+Warning: Feature column 'MCAT_Total_Score' not found. Filling with 0 or 'Unknown'.
+Converted 'Disadvantanged_Ind' to binary. Unique values: [0 1]
+Converted 'First_Generation_Ind' to binary. Unique values: [0 1]
+Converted 'SES_Value' to binary. Unique values: [1 0]
+Feature engineering, imputation, and binary conversion complete.
+Target variable created.
+Scaling experience columns: ['Exp_Hour_Total', 'Exp_Hour_Research', 'Exp_Hour_Volunteer_Med', 'Comm_Service_Total_Hours', 'HealthCare_Total_Hours']
+Experience columns scaled.
+Training RandomForestClassifier...
+Model training complete.
+--- Classification Report ---
+                          precision    recall  f1-score   support
+
+        1. Very Unlikely       0.29      0.17      0.21        24
+     2. Potential Review       0.55      0.53      0.54        32
+   3. Probable Interview       0.34      0.43      0.38        30
+4. Very Likely Interview       0.30      0.33      0.31        24
+
+                accuracy                           0.38       110
+               macro avg       0.37      0.37      0.36       110
+            weighted avg       0.38      0.38      0.38       110
+
+
+--- Confusion Matrix ---
+                          1. Very Unlikely  2. Potential Review  3. Probable Interview  4. Very Likely Interview
+1. Very Unlikely                         4                    5                      9                         6
+2. Potential Review                      2                   17                      6                         7
+3. Probable Interview                    5                    6                     13                         6
+4. Very Likely Interview                 3                    3                     10                         8
+
+Model data (model, features, scaler, class_names) saved to 'models/admissions_model_four_tier.pkl'.
+Process finished successfully.

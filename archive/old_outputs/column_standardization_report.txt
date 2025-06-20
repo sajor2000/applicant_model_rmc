@@ -1,0 +1,46 @@
+============================================================
+COLUMN STANDARDIZATION REPORT
+============================================================
+
+## Column Name Variations Found:
+
+service_rating_numerical:
+  - Service Rating (Numerical)
+  - Service_Rating_Numerical
+
+service_rating_categorical:
+  - Service Rating (Categorical)
+  - Service_Rating_Categorical
+
+application_review_score:
+  - Application Review Score
+  - Application_Review_Score
+
+amcas_id:
+  - AMCAS_ID
+  - AMCAS ID
+  - Amcas_ID
+  - Amcas_id
+  - amcas_id
+
+appl_year:
+  - Appl_Year
+  - app_year
+
+## Missing Columns by Year:
+
+2022: 0 missing columns
+
+2023: 2 missing columns
+  - total_gpa_trend
+  - bcpm_gpa_trend
+
+2024: 2 missing columns
+  - total_gpa_trend
+  - bcpm_gpa_trend
+
+## Summary:
+Total unique columns (standardized): 62
+2022: 63 original columns → 62 standardized
+2023: 60 original columns → 60 standardized
+2024: 60 original columns → 60 standardized

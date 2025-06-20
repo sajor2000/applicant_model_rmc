@@ -1,0 +1,130 @@
+================================================================================
+DATA COMPLETENESS ANALYSIS REPORT
+================================================================================
+
+## FILE CONSISTENCY ACROSS YEARS
+
+8. Schools.xlsx:
+  Present in: [2022, 2023]
+  Missing in: [2024]
+
+8. School.xlsx:
+  Present in: [2024]
+  Missing in: [2022, 2023]
+
+## CRITICAL FEATURES STATUS
+
+### Year 2022:
+  Present: 14/15
+  Missing: exp_hour_clinical
+
+### Year 2023:
+  Present: 14/15
+  Missing: exp_hour_clinical
+
+### Year 2024:
+  Present: 14/15
+  Missing: exp_hour_clinical
+
+## FEATURES NOT CONSISTENT ACROSS YEARS
+
+amcas_id.1:
+  Present in: [2022]
+  Missing in: [2023, 2024]
+
+bcpm_gpa_trend:
+  Present in: [2022]
+  Missing in: [2023, 2024]
+
+total_gpa_trend:
+  Present in: [2022]
+  Missing in: [2023, 2024]
+
+## MISSING DATA SUMMARY
+
+### Year 2022 - Features with missing data:
+  - Prev_Matric_Sschool: 100.0% missing
+  - Prev_Matric_Desc: 100.0% missing
+  - Felony_Desc: 100.0% missing
+  - Military_Discharge_Desc: 100.0% missing
+  - military_service_status: 100.0% missing
+  - Prev_Matric_Year: 99.77% missing
+  - Misdemeanor_Desc: 98.4% missing
+  - Inst_Action_Desc: 93.36% missing
+  - prev_applied_rush: 83.3% missing
+  - Hrdshp_Comments: 73.68% missing
+
+### Year 2023 - Features with missing data:
+  - Prev_Matric_Sschool: 100.0% missing
+  - Prev_Matric_Desc: 100.0% missing
+  - Felony_Desc: 100.0% missing
+  - Military_Discharge_Desc: 100.0% missing
+  - Misdemeanor_Desc: 99.75% missing
+  - Prev_Matric_Year: 99.5% missing
+  - military_service_status: 98.0% missing
+  - Inst_Action_Desc: 95.01% missing
+  - prev_applied_rush: 88.28% missing
+  - Hrdshp_Comments: 76.31% missing
+
+### Year 2024 - Features with missing data:
+  - Hrdshp_Comments: 100.0% missing
+  - Felony_Desc: 100.0% missing
+  - Military_Discharge_Desc: 100.0% missing
+  - Prev_Matric_Sschool: 99.84% missing
+  - Prev_Matric_Desc: 99.84% missing
+  - Misdemeanor_Desc: 99.51% missing
+  - Prev_Matric_Year: 99.35% missing
+  - military_service_status: 99.18% missing
+  - Inst_Action_Desc: 93.8% missing
+  - prev_applied_rush: 85.32% missing
+
+## DATA TYPE CHANGES
+
+Features with inconsistent data types:
+
+Hrdshp_Comments:
+  2022: object
+  2023: object
+  2024: float64
+
+Prev_Matric_Sschool:
+  2022: float64
+  2023: float64
+  2024: object
+
+Prev_Matric_Desc:
+  2022: float64
+  2023: float64
+  2024: object
+
+military_service_status:
+  2022: float64
+  2023: object
+  2024: object
+
+## SUMMARY STATISTICS
+
+Year 2022:
+  Total features: 63
+  Features with missing data: 27
+
+Year 2023:
+  Total features: 60
+  Features with missing data: 23
+
+Year 2024:
+  Total features: 60
+  Features with missing data: 25
+
+## RECOMMENDATIONS
+
+1. Address Critical Missing Features:
+   - Add exp_hour_clinical to all years
+
+2. Handle High Missing Data:
+   - Consider imputation strategies for features with >50% missing
+   - Investigate why MCAT and GPA values are missing
+
+3. Standardize Data Types:
+   - Ensure consistent data types across years
+   - Convert Yes/No to boolean consistently

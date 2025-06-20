@@ -1,0 +1,1141 @@
+{
+  "applicants_analysis": {
+    "feature_availability": {
+      "2022": [
+        "application_review_score",
+        "exp_hour_volunteer_med",
+        "exp_hour_employ_med",
+        "exp_hour_volunteer_non_med",
+        "Hrdshp_Comments",
+        "healthcare_ind",
+        "Major_Long_Desc",
+        "felony_ind",
+        "service_rating_numerical",
+        "Other_Percentage",
+        "citizenship",
+        "Prev_Matric_Year",
+        "Childhood_Med_Underserved_Self_Reported",
+        "student_loan_percentage",
+        "fee_assistance_program",
+        "amcas_id.1",
+        "Inst_Action_Desc",
+        "ses_value",
+        "Prev_Matric_Desc",
+        "Felony_Desc",
+        "Contribution_to_Family",
+        "academic_scholarship_percentage",
+        "Applicant_Contribution_Percentage",
+        "Misdemeanor_Desc",
+        "Prev_Matric_Ind",
+        "Prev_Matric_Sschool",
+        "service_rating_categorical",
+        "military_service",
+        "military_service_status",
+        "ru_ind",
+        "appl_year",
+        "exp_hour_shadowing",
+        "healthcare_total_hours",
+        "Under_School",
+        "Paid_Employment_BF_18",
+        "Highest_Test_Date_2015",
+        "gender",
+        "Military_Discharge_Ind",
+        "Family_Assistance_Program",
+        "bcpm_gpa_trend",
+        "misdemeanor_ind",
+        "total_gpa_trend",
+        "Family_Income_Level",
+        "Military_Discharge_Desc",
+        "disadvantaged_ind",
+        "first_generation_ind",
+        "comm_service_ind",
+        "age",
+        "exp_hour_research",
+        "Finacial_Need_Based_Percentage",
+        "Military_HON_Discharge_Ind",
+        "pell_grant",
+        "eo_level",
+        "Other_Loan_Percentage",
+        "Family_Contribution_Percentage",
+        "amcas_id",
+        "inst_action_ind",
+        "comm_service_total_hours",
+        "investigation_ind",
+        "exp_hour_total",
+        "prev_applied_rush",
+        "num_dependents",
+        "number_in_household"
+      ],
+      "2023": [
+        "application_review_score",
+        "exp_hour_volunteer_med",
+        "exp_hour_employ_med",
+        "exp_hour_volunteer_non_med",
+        "Hrdshp_Comments",
+        "healthcare_ind",
+        "Major_Long_Desc",
+        "felony_ind",
+        "service_rating_numerical",
+        "Other_Percentage",
+        "citizenship",
+        "Prev_Matric_Year",
+        "Childhood_Med_Underserved_Self_Reported",
+        "student_loan_percentage",
+        "fee_assistance_program",
+        "Inst_Action_Desc",
+        "ses_value",
+        "Prev_Matric_Desc",
+        "Felony_Desc",
+        "Contribution_to_Family",
+        "academic_scholarship_percentage",
+        "Applicant_Contribution_Percentage",
+        "Misdemeanor_Desc",
+        "Prev_Matric_Ind",
+        "Prev_Matric_Sschool",
+        "service_rating_categorical",
+        "military_service",
+        "military_service_status",
+        "ru_ind",
+        "appl_year",
+        "exp_hour_shadowing",
+        "healthcare_total_hours",
+        "Under_School",
+        "Paid_Employment_BF_18",
+        "Highest_Test_Date_2015",
+        "gender",
+        "Military_Discharge_Ind",
+        "Family_Assistance_Program",
+        "misdemeanor_ind",
+        "Family_Income_Level",
+        "Military_Discharge_Desc",
+        "disadvantaged_ind",
+        "first_generation_ind",
+        "comm_service_ind",
+        "age",
+        "exp_hour_research",
+        "Finacial_Need_Based_Percentage",
+        "Military_HON_Discharge_Ind",
+        "pell_grant",
+        "eo_level",
+        "Other_Loan_Percentage",
+        "Family_Contribution_Percentage",
+        "amcas_id",
+        "inst_action_ind",
+        "comm_service_total_hours",
+        "investigation_ind",
+        "exp_hour_total",
+        "prev_applied_rush",
+        "num_dependents",
+        "number_in_household"
+      ],
+      "2024": [
+        "application_review_score",
+        "exp_hour_volunteer_med",
+        "exp_hour_employ_med",
+        "exp_hour_volunteer_non_med",
+        "Hrdshp_Comments",
+        "healthcare_ind",
+        "Major_Long_Desc",
+        "felony_ind",
+        "service_rating_numerical",
+        "Other_Percentage",
+        "citizenship",
+        "Prev_Matric_Year",
+        "Childhood_Med_Underserved_Self_Reported",
+        "student_loan_percentage",
+        "fee_assistance_program",
+        "Inst_Action_Desc",
+        "ses_value",
+        "Prev_Matric_Desc",
+        "Felony_Desc",
+        "Contribution_to_Family",
+        "academic_scholarship_percentage",
+        "Applicant_Contribution_Percentage",
+        "Misdemeanor_Desc",
+        "Prev_Matric_Ind",
+        "Prev_Matric_Sschool",
+        "service_rating_categorical",
+        "military_service",
+        "military_service_status",
+        "ru_ind",
+        "appl_year",
+        "exp_hour_shadowing",
+        "healthcare_total_hours",
+        "Under_School",
+        "Paid_Employment_BF_18",
+        "Highest_Test_Date_2015",
+        "gender",
+        "Military_Discharge_Ind",
+        "Family_Assistance_Program",
+        "misdemeanor_ind",
+        "Family_Income_Level",
+        "Military_Discharge_Desc",
+        "disadvantaged_ind",
+        "first_generation_ind",
+        "comm_service_ind",
+        "age",
+        "exp_hour_research",
+        "Finacial_Need_Based_Percentage",
+        "Military_HON_Discharge_Ind",
+        "pell_grant",
+        "eo_level",
+        "Other_Loan_Percentage",
+        "Family_Contribution_Percentage",
+        "amcas_id",
+        "inst_action_ind",
+        "comm_service_total_hours",
+        "investigation_ind",
+        "exp_hour_total",
+        "prev_applied_rush",
+        "num_dependents",
+        "number_in_household"
+      ]
+    },
+    "missing_values": {
+      "2022": {
+        "prev_applied_rush": 83.3,
+        "eo_level": 72.31,
+        "Hrdshp_Comments": 73.68,
+        "Inst_Action_Desc": 93.36,
+        "Prev_Matric_Sschool": 100.0,
+        "Prev_Matric_Year": 99.77,
+        "Prev_Matric_Desc": 100.0,
+        "Felony_Desc": 100.0,
+        "Misdemeanor_Desc": 98.4,
+        "Military_Discharge_Desc": 100.0,
+        "exp_hour_research": 9.15,
+        "exp_hour_volunteer_med": 9.38,
+        "exp_hour_volunteer_non_med": 15.1,
+        "exp_hour_employ_med": 27.23,
+        "exp_hour_shadowing": 13.27,
+        "Under_School": 0.23,
+        "Major_Long_Desc": 0.23,
+        "military_service_status": 100.0,
+        "academic_scholarship_percentage": 9.84,
+        "Finacial_Need_Based_Percentage": 9.84,
+        "student_loan_percentage": 9.84,
+        "Other_Loan_Percentage": 9.84,
+        "Family_Contribution_Percentage": 9.84,
+        "Applicant_Contribution_Percentage": 9.84,
+        "Other_Percentage": 9.84,
+        "total_gpa_trend": 45.08,
+        "bcpm_gpa_trend": 47.83
+      },
+      "2023": {
+        "prev_applied_rush": 88.28,
+        "eo_level": 74.81,
+        "Hrdshp_Comments": 76.31,
+        "Inst_Action_Desc": 95.01,
+        "Prev_Matric_Sschool": 100.0,
+        "Prev_Matric_Year": 99.5,
+        "Prev_Matric_Desc": 100.0,
+        "Felony_Desc": 100.0,
+        "Misdemeanor_Desc": 99.75,
+        "Military_Discharge_Desc": 100.0,
+        "exp_hour_research": 7.73,
+        "exp_hour_volunteer_med": 11.97,
+        "exp_hour_volunteer_non_med": 13.72,
+        "exp_hour_employ_med": 13.72,
+        "exp_hour_shadowing": 15.96,
+        "military_service_status": 98.0,
+        "academic_scholarship_percentage": 7.98,
+        "Finacial_Need_Based_Percentage": 7.98,
+        "student_loan_percentage": 7.98,
+        "Other_Loan_Percentage": 7.98,
+        "Family_Contribution_Percentage": 7.98,
+        "Applicant_Contribution_Percentage": 7.98,
+        "Other_Percentage": 7.98
+      },
+      "2024": {
+        "prev_applied_rush": 85.32,
+        "eo_level": 78.79,
+        "Hrdshp_Comments": 100.0,
+        "Inst_Action_Desc": 93.8,
+        "Prev_Matric_Sschool": 99.84,
+        "Prev_Matric_Year": 99.35,
+        "Prev_Matric_Desc": 99.84,
+        "Felony_Desc": 100.0,
+        "Misdemeanor_Desc": 99.51,
+        "Military_Discharge_Desc": 100.0,
+        "exp_hour_research": 8.16,
+        "exp_hour_volunteer_med": 10.93,
+        "exp_hour_volunteer_non_med": 10.28,
+        "exp_hour_employ_med": 15.99,
+        "exp_hour_shadowing": 13.7,
+        "Under_School": 0.16,
+        "Major_Long_Desc": 0.16,
+        "military_service_status": 99.18,
+        "academic_scholarship_percentage": 11.09,
+        "Finacial_Need_Based_Percentage": 11.09,
+        "student_loan_percentage": 11.09,
+        "Other_Loan_Percentage": 11.09,
+        "Family_Contribution_Percentage": 11.09,
+        "Applicant_Contribution_Percentage": 11.09,
+        "Other_Percentage": 11.09
+      }
+    },
+    "data_types": {
+      "2022": {
+        "appl_year": "int64",
+        "amcas_id": "int64",
+        "prev_applied_rush": "object",
+        "age": "int64",
+        "gender": "object",
+        "citizenship": "object",
+        "ses_value": "object",
+        "eo_level": "object",
+        "first_generation_ind": "object",
+        "disadvantaged_ind": "object",
+        "Hrdshp_Comments": "object",
+        "ru_ind": "object",
+        "num_dependents": "int64",
+        "inst_action_ind": "object",
+        "Inst_Action_Desc": "object",
+        "Prev_Matric_Ind": "object",
+        "Prev_Matric_Sschool": "float64",
+        "Prev_Matric_Year": "float64",
+        "Prev_Matric_Desc": "float64",
+        "investigation_ind": "object",
+        "felony_ind": "object",
+        "Felony_Desc": "float64",
+        "misdemeanor_ind": "object",
+        "Misdemeanor_Desc": "object",
+        "Military_Discharge_Ind": "object",
+        "Military_HON_Discharge_Ind": "int64",
+        "Military_Discharge_Desc": "float64",
+        "exp_hour_total": "int64",
+        "exp_hour_research": "float64",
+        "exp_hour_volunteer_med": "float64",
+        "exp_hour_volunteer_non_med": "float64",
+        "exp_hour_employ_med": "float64",
+        "exp_hour_shadowing": "float64",
+        "comm_service_ind": "object",
+        "comm_service_total_hours": "int64",
+        "healthcare_ind": "object",
+        "healthcare_total_hours": "int64",
+        "Highest_Test_Date_2015": "object",
+        "Under_School": "object",
+        "Major_Long_Desc": "object",
+        "military_service": "object",
+        "military_service_status": "float64",
+        "pell_grant": "object",
+        "fee_assistance_program": "object",
+        "Childhood_Med_Underserved_Self_Reported": "object",
+        "Family_Income_Level": "object",
+        "number_in_household": "int64",
+        "Family_Assistance_Program": "object",
+        "Paid_Employment_BF_18": "object",
+        "Contribution_to_Family": "object",
+        "academic_scholarship_percentage": "float64",
+        "Finacial_Need_Based_Percentage": "float64",
+        "student_loan_percentage": "float64",
+        "Other_Loan_Percentage": "float64",
+        "Family_Contribution_Percentage": "float64",
+        "Applicant_Contribution_Percentage": "float64",
+        "Other_Percentage": "float64",
+        "application_review_score": "int64",
+        "service_rating_categorical": "object",
+        "service_rating_numerical": "int64",
+        "amcas_id.1": "int64",
+        "total_gpa_trend": "float64",
+        "bcpm_gpa_trend": "float64"
+      },
+      "2023": {
+        "appl_year": "int64",
+        "amcas_id": "int64",
+        "prev_applied_rush": "object",
+        "age": "int64",
+        "gender": "object",
+        "citizenship": "object",
+        "ses_value": "object",
+        "eo_level": "object",
+        "first_generation_ind": "object",
+        "disadvantaged_ind": "object",
+        "Hrdshp_Comments": "object",
+        "ru_ind": "object",
+        "num_dependents": "int64",
+        "inst_action_ind": "object",
+        "Inst_Action_Desc": "object",
+        "Prev_Matric_Ind": "object",
+        "Prev_Matric_Sschool": "float64",
+        "Prev_Matric_Year": "float64",
+        "Prev_Matric_Desc": "float64",
+        "investigation_ind": "object",
+        "felony_ind": "object",
+        "Felony_Desc": "float64",
+        "misdemeanor_ind": "object",
+        "Misdemeanor_Desc": "object",
+        "Military_Discharge_Ind": "object",
+        "Military_HON_Discharge_Ind": "int64",
+        "Military_Discharge_Desc": "float64",
+        "exp_hour_total": "int64",
+        "exp_hour_research": "float64",
+        "exp_hour_volunteer_med": "float64",
+        "exp_hour_volunteer_non_med": "float64",
+        "exp_hour_employ_med": "float64",
+        "exp_hour_shadowing": "float64",
+        "comm_service_ind": "object",
+        "comm_service_total_hours": "int64",
+        "healthcare_ind": "object",
+        "healthcare_total_hours": "int64",
+        "Highest_Test_Date_2015": "object",
+        "Under_School": "object",
+        "Major_Long_Desc": "object",
+        "military_service": "object",
+        "military_service_status": "object",
+        "pell_grant": "object",
+        "fee_assistance_program": "object",
+        "Childhood_Med_Underserved_Self_Reported": "object",
+        "Family_Income_Level": "object",
+        "number_in_household": "int64",
+        "Family_Assistance_Program": "object",
+        "Paid_Employment_BF_18": "object",
+        "Contribution_to_Family": "object",
+        "academic_scholarship_percentage": "float64",
+        "Finacial_Need_Based_Percentage": "float64",
+        "student_loan_percentage": "float64",
+        "Other_Loan_Percentage": "float64",
+        "Family_Contribution_Percentage": "float64",
+        "Applicant_Contribution_Percentage": "float64",
+        "Other_Percentage": "float64",
+        "application_review_score": "int64",
+        "service_rating_categorical": "object",
+        "service_rating_numerical": "int64"
+      },
+      "2024": {
+        "appl_year": "int64",
+        "amcas_id": "int64",
+        "prev_applied_rush": "object",
+        "age": "int64",
+        "gender": "object",
+        "citizenship": "object",
+        "ses_value": "object",
+        "eo_level": "object",
+        "first_generation_ind": "object",
+        "disadvantaged_ind": "object",
+        "Hrdshp_Comments": "float64",
+        "ru_ind": "object",
+        "num_dependents": "int64",
+        "inst_action_ind": "object",
+        "Inst_Action_Desc": "object",
+        "Prev_Matric_Ind": "object",
+        "Prev_Matric_Sschool": "object",
+        "Prev_Matric_Year": "float64",
+        "Prev_Matric_Desc": "object",
+        "investigation_ind": "object",
+        "felony_ind": "object",
+        "Felony_Desc": "float64",
+        "misdemeanor_ind": "object",
+        "Misdemeanor_Desc": "object",
+        "Military_Discharge_Ind": "object",
+        "Military_HON_Discharge_Ind": "int64",
+        "Military_Discharge_Desc": "float64",
+        "exp_hour_total": "int64",
+        "exp_hour_research": "float64",
+        "exp_hour_volunteer_med": "float64",
+        "exp_hour_volunteer_non_med": "float64",
+        "exp_hour_employ_med": "float64",
+        "exp_hour_shadowing": "float64",
+        "comm_service_ind": "object",
+        "comm_service_total_hours": "int64",
+        "healthcare_ind": "object",
+        "healthcare_total_hours": "int64",
+        "Highest_Test_Date_2015": "object",
+        "Under_School": "object",
+        "Major_Long_Desc": "object",
+        "military_service": "object",
+        "military_service_status": "object",
+        "pell_grant": "object",
+        "fee_assistance_program": "object",
+        "Childhood_Med_Underserved_Self_Reported": "object",
+        "Family_Income_Level": "object",
+        "number_in_household": "int64",
+        "Family_Assistance_Program": "object",
+        "Paid_Employment_BF_18": "object",
+        "Contribution_to_Family": "object",
+        "academic_scholarship_percentage": "float64",
+        "Finacial_Need_Based_Percentage": "float64",
+        "student_loan_percentage": "float64",
+        "Other_Loan_Percentage": "float64",
+        "Family_Contribution_Percentage": "float64",
+        "Applicant_Contribution_Percentage": "float64",
+        "Other_Percentage": "float64",
+        "application_review_score": "int64",
+        "service_rating_categorical": "object",
+        "service_rating_numerical": "int64"
+      }
+    },
+    "value_ranges": {
+      "2022": {
+        "appl_year": {
+          "min": 2022.0,
+          "max": 2022.0,
+          "mean": 2022.0
+        },
+        "amcas_id": {
+          "min": 12950085.0,
+          "max": 15499135.0,
+          "mean": 15011632.224256292
+        },
+        "age": {
+          "min": 22.0,
+          "max": 62.0,
+          "mean": 26.34324942791762
+        },
+        "num_dependents": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.029748283752860413
+        },
+        "Prev_Matric_Year": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        },
+        "Military_HON_Discharge_Ind": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        },
+        "exp_hour_total": {
+          "min": 704.0,
+          "max": 115474.0,
+          "mean": 10075.37299771167
+        },
+        "exp_hour_research": {
+          "min": 5.0,
+          "max": 24220.0,
+          "mean": 1395.808564231738
+        },
+        "exp_hour_volunteer_med": {
+          "min": 16.0,
+          "max": 9650.0,
+          "mean": 643.5757575757576
+        },
+        "exp_hour_volunteer_non_med": {
+          "min": 10.0,
+          "max": 12000.0,
+          "mean": 730.355795148248
+        },
+        "exp_hour_employ_med": {
+          "min": 30.0,
+          "max": 16000.0,
+          "mean": 2637.289308176101
+        },
+        "exp_hour_shadowing": {
+          "min": 4.0,
+          "max": 6760.0,
+          "mean": 184.4353562005277
+        },
+        "comm_service_total_hours": {
+          "min": 0.0,
+          "max": 12000.0,
+          "mean": 1203.2448512585813
+        },
+        "healthcare_total_hours": {
+          "min": 52.0,
+          "max": 17860.0,
+          "mean": 2662.2768878718534
+        },
+        "number_in_household": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 4.610983981693364
+        },
+        "academic_scholarship_percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 19.69796954314721
+        },
+        "Finacial_Need_Based_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 21.49720812182741
+        },
+        "student_loan_percentage": {
+          "min": 0.0,
+          "max": 95.0,
+          "mean": 9.797208121827412
+        },
+        "Other_Loan_Percentage": {
+          "min": 0.0,
+          "max": 72.0,
+          "mean": 1.7345177664974618
+        },
+        "Family_Contribution_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 40.0256345177665
+        },
+        "Applicant_Contribution_Percentage": {
+          "min": 0.0,
+          "max": 80.0,
+          "mean": 5.07994923857868
+        },
+        "Other_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 2.16751269035533
+        },
+        "application_review_score": {
+          "min": 0.0,
+          "max": 25.0,
+          "mean": 16.073226544622425
+        },
+        "service_rating_numerical": {
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 3.066361556064073
+        },
+        "amcas_id.1": {
+          "min": 12950085.0,
+          "max": 15499135.0,
+          "mean": 15011632.224256292
+        },
+        "total_gpa_trend": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.8166666666666667
+        },
+        "bcpm_gpa_trend": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.8157894736842105
+        }
+      },
+      "2023": {
+        "appl_year": {
+          "min": 2023.0,
+          "max": 2023.0,
+          "mean": 2023.0
+        },
+        "amcas_id": {
+          "min": 13278986.0,
+          "max": 15758293.0,
+          "mean": 15219108.261845386
+        },
+        "age": {
+          "min": 21.0,
+          "max": 45.0,
+          "mean": 25.45137157107232
+        },
+        "num_dependents": {
+          "min": 0.0,
+          "max": 3.0,
+          "mean": 0.03740648379052369
+        },
+        "Prev_Matric_Year": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        },
+        "Military_HON_Discharge_Ind": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.007481296758104738
+        },
+        "exp_hour_total": {
+          "min": 1208.0,
+          "max": 412667.0,
+          "mean": 9543.354114713216
+        },
+        "exp_hour_research": {
+          "min": 0.0,
+          "max": 10550.0,
+          "mean": 1061.3972972972972
+        },
+        "exp_hour_volunteer_med": {
+          "min": 0.0,
+          "max": 8000.0,
+          "mean": 509.38243626062325
+        },
+        "exp_hour_volunteer_non_med": {
+          "min": 7.0,
+          "max": 107299.0,
+          "mean": 774.3872832369942
+        },
+        "exp_hour_employ_med": {
+          "min": 0.0,
+          "max": 23000.0,
+          "mean": 2509.208092485549
+        },
+        "exp_hour_shadowing": {
+          "min": 0.0,
+          "max": 2439.0,
+          "mean": 123.07121661721068
+        },
+        "comm_service_total_hours": {
+          "min": 0.0,
+          "max": 107487.0,
+          "mean": 1116.583541147132
+        },
+        "healthcare_total_hours": {
+          "min": 100.0,
+          "max": 23000.0,
+          "mean": 2716.8902743142144
+        },
+        "number_in_household": {
+          "min": 1.0,
+          "max": 14.0,
+          "mean": 4.7905236907730675
+        },
+        "academic_scholarship_percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 20.979674796747968
+        },
+        "Finacial_Need_Based_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 17.824661246612468
+        },
+        "student_loan_percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 11.68509485094851
+        },
+        "Other_Loan_Percentage": {
+          "min": 0.0,
+          "max": 85.0,
+          "mean": 1.3252032520325203
+        },
+        "Family_Contribution_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 39.12411924119241
+        },
+        "Applicant_Contribution_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 6.1918699186991875
+        },
+        "Other_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 2.8693766937669376
+        },
+        "application_review_score": {
+          "min": 2.0,
+          "max": 25.0,
+          "mean": 15.937655860349127
+        },
+        "service_rating_numerical": {
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.8977556109725686
+        }
+      },
+      "2024": {
+        "appl_year": {
+          "min": 2024.0,
+          "max": 2024.0,
+          "mean": 2024.0
+        },
+        "amcas_id": {
+          "min": 13149516.0,
+          "max": 16091417.0,
+          "mean": 15463699.57096248
+        },
+        "age": {
+          "min": 20.0,
+          "max": 41.0,
+          "mean": 24.30179445350734
+        },
+        "num_dependents": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.03425774877650897
+        },
+        "Prev_Matric_Year": {
+          "min": 0.0,
+          "max": 2019.0,
+          "mean": 504.75
+        },
+        "Military_HON_Discharge_Ind": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.0032626427406199023
+        },
+        "exp_hour_total": {
+          "min": 748.0,
+          "max": 208872.0,
+          "mean": 9206.543230016314
+        },
+        "exp_hour_research": {
+          "min": 0.0,
+          "max": 18400.0,
+          "mean": 1106.3019538188278
+        },
+        "exp_hour_volunteer_med": {
+          "min": 0.0,
+          "max": 11370.0,
+          "mean": 597.934065934066
+        },
+        "exp_hour_volunteer_non_med": {
+          "min": 0.0,
+          "max": 100419.0,
+          "mean": 938.8345454545455
+        },
+        "exp_hour_employ_med": {
+          "min": 0.0,
+          "max": 16810.0,
+          "mean": 2058.607766990291
+        },
+        "exp_hour_shadowing": {
+          "min": 0.0,
+          "max": 1570.0,
+          "mean": 149.58790170132326
+        },
+        "comm_service_total_hours": {
+          "min": 0.0,
+          "max": 101895.0,
+          "mean": 1374.9282218597064
+        },
+        "healthcare_total_hours": {
+          "min": 45.0,
+          "max": 17560.0,
+          "mean": 2391.169657422512
+        },
+        "number_in_household": {
+          "min": 2.0,
+          "max": 17.0,
+          "mean": 4.714518760195759
+        },
+        "academic_scholarship_percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 24.571743119266053
+        },
+        "Finacial_Need_Based_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 18.648440366972476
+        },
+        "student_loan_percentage": {
+          "min": 0.0,
+          "max": 99.5,
+          "mean": 9.835229357798164
+        },
+        "Other_Loan_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 1.0416513761467892
+        },
+        "Family_Contribution_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 38.652844036697246
+        },
+        "Applicant_Contribution_Percentage": {
+          "min": 0.0,
+          "max": 90.0,
+          "mean": 6.125321100917431
+        },
+        "Other_Percentage": {
+          "min": 0.0,
+          "max": 100.0,
+          "mean": 1.1247706422018349
+        },
+        "application_review_score": {
+          "min": 0.0,
+          "max": 25.0,
+          "mean": 15.300163132137031
+        },
+        "service_rating_numerical": {
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.6084828711256116
+        }
+      }
+    },
+    "critical_features_status": {
+      "2022": {
+        "service_rating_numerical": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "application_review_score": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "exp_hour_total": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "exp_hour_research": {
+          "present": true,
+          "missing_pct": 9.15
+        },
+        "exp_hour_clinical": {
+          "present": false,
+          "missing_pct": 100.0
+        },
+        "exp_hour_volunteer_med": {
+          "present": true,
+          "missing_pct": 9.38
+        },
+        "healthcare_total_hours": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "comm_service_total_hours": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "age": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "gender": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "first_generation_ind": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "disadvantaged_ind": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "ses_value": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "pell_grant": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "fee_assistance_program": {
+          "present": true,
+          "missing_pct": 0.0
+        }
+      },
+      "2023": {
+        "service_rating_numerical": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "application_review_score": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "exp_hour_total": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "exp_hour_research": {
+          "present": true,
+          "missing_pct": 7.73
+        },
+        "exp_hour_clinical": {
+          "present": false,
+          "missing_pct": 100.0
+        },
+        "exp_hour_volunteer_med": {
+          "present": true,
+          "missing_pct": 11.97
+        },
+        "healthcare_total_hours": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "comm_service_total_hours": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "age": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "gender": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "first_generation_ind": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "disadvantaged_ind": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "ses_value": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "pell_grant": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "fee_assistance_program": {
+          "present": true,
+          "missing_pct": 0.0
+        }
+      },
+      "2024": {
+        "service_rating_numerical": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "application_review_score": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "exp_hour_total": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "exp_hour_research": {
+          "present": true,
+          "missing_pct": 8.16
+        },
+        "exp_hour_clinical": {
+          "present": false,
+          "missing_pct": 100.0
+        },
+        "exp_hour_volunteer_med": {
+          "present": true,
+          "missing_pct": 10.93
+        },
+        "healthcare_total_hours": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "comm_service_total_hours": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "age": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "gender": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "first_generation_ind": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "disadvantaged_ind": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "ses_value": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "pell_grant": {
+          "present": true,
+          "missing_pct": 0.0
+        },
+        "fee_assistance_program": {
+          "present": true,
+          "missing_pct": 0.0
+        }
+      }
+    },
+    "inconsistent_features": {
+      "amcas_id.1": {
+        "present_in": [
+          2022
+        ],
+        "missing_in": [
+          2023,
+          2024
+        ]
+      },
+      "bcpm_gpa_trend": {
+        "present_in": [
+          2022
+        ],
+        "missing_in": [
+          2023,
+          2024
+        ]
+      },
+      "total_gpa_trend": {
+        "present_in": [
+          2022
+        ],
+        "missing_in": [
+          2023,
+          2024
+        ]
+      }
+    }
+  },
+  "files_analysis": {
+    "file_analysis": {
+      "2022": {
+        "file_count": 11,
+        "files": [
+          "3. Parents.xlsx",
+          "9. Personal Statement.xlsx",
+          "8. Schools.xlsx",
+          "4. Siblings.xlsx",
+          "2. Language.xlsx",
+          "6. Experiences.xlsx",
+          "10. Secondary Application.xlsx",
+          "12. GPA Trend.xlsx",
+          "1. Applicants.xlsx",
+          "5. Academic Records.xlsx",
+          "11. Military.xlsx"
+        ]
+      },
+      "2023": {
+        "file_count": 11,
+        "files": [
+          "3. Parents.xlsx",
+          "9. Personal Statement.xlsx",
+          "8. Schools.xlsx",
+          "4. Siblings.xlsx",
+          "2. Language.xlsx",
+          "6. Experiences.xlsx",
+          "10. Secondary Application.xlsx",
+          "12. GPA Trend.xlsx",
+          "1. Applicants.xlsx",
+          "5. Academic Records.xlsx",
+          "11. Military.xlsx"
+        ]
+      },
+      "2024": {
+        "file_count": 11,
+        "files": [
+          "3. Parents.xlsx",
+          "9. Personal Statement.xlsx",
+          "8. School.xlsx",
+          "4. Siblings.xlsx",
+          "2. Language.xlsx",
+          "6. Experiences.xlsx",
+          "10. Secondary Application.xlsx",
+          "12. GPA Trend.xlsx",
+          "1. Applicants.xlsx",
+          "5. Academic Records.xlsx",
+          "11. Military.xlsx"
+        ]
+      }
+    },
+    "file_consistency": {
+      "8. Schools.xlsx": {
+        "present_in": [
+          2022,
+          2023
+        ],
+        "missing_in": [
+          2024
+        ]
+      },
+      "8. School.xlsx": {
+        "present_in": [
+          2024
+        ],
+        "missing_in": [
+          2022,
+          2023
+        ]
+      }
+    }
+  }
+}

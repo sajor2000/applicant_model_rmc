@@ -1,0 +1,34 @@
+================================================================================
+TRAINING ORDINAL MODEL WITH FILTERED CONSISTENT DATA
+================================================================================
+
+1. Loading filtered training data...
+   Loaded 437 from 2022, 401 from 2023
+   Total training samples: 838
+
+2. Loading LLM scores...
+   Loaded LLM scores from: llm_scores_2022_2023_20250619_172837.csv
+   LLM columns: ['llm_narrative_coherence', 'llm_motivation_authenticity', 'llm_reflection_depth', 'llm_growth_demonstrated', 'llm_unique_perspective', 'llm_clinical_insight', 'llm_service_genuineness', 'llm_leadership_impact', 'llm_communication_quality', 'llm_maturity_score']
+   Merged 10 LLM features for 0 applicants
+
+3. Preparing features...
+   Using 56 features
+   - Numeric features: 40
+   - Categorical features: 16
+Traceback (most recent call last):
+  File "/Users/JCR/Desktop/Windsurf IDE/rmc_admissions/train_with_filtered_data.py", line 379, in <module>
+    pipeline.run_training_pipeline()
+  File "/Users/JCR/Desktop/Windsurf IDE/rmc_admissions/train_with_filtered_data.py", line 339, in run_training_pipeline
+    X, y, feature_cols, imputer, scaler = self.prepare_features(df_train)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/JCR/Desktop/Windsurf IDE/rmc_admissions/train_with_filtered_data.py", line 155, in prepare_features
+    X_df = pd.DataFrame(X_scaled, columns=available_features)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/frame.py", line 827, in __init__
+    mgr = ndarray_to_mgr(
+          ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 336, in ndarray_to_mgr
+    _check_values_indices_shape_match(values, index, columns)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 420, in _check_values_indices_shape_match
+    raise ValueError(f"Shape of passed values is {passed}, indices imply {implied}")
+ValueError: Shape of passed values is (838, 44), indices imply (838, 56)
