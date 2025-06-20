@@ -153,4 +153,4 @@ GitHub Actions workflows:
 - See [QUICK_START.md](docs/QUICK_START.md) for setup
 - Check [CONTRIBUTING.md](CONTRIBUTING.md) for development
 - Open issues for bugs/features
-- Email: admissions-ai@rush.edu
+- Email: [Contact Information Removed]

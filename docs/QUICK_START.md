@@ -143,4 +143,4 @@ Confidence scores:
 ## Support
 
 - GitHub Issues: [Report bugs or request features](https://github.com/RushUniversity/ai-admissions/issues)
-- Email: admissions-ai@rush.edu
+- Email: [Contact Information Removed]

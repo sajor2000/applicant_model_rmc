@@ -12,7 +12,7 @@ setup(
     name="rush-ai-admissions",
     version="1.0.0",
     author="Rush University Medical Center",
-    author_email="admissions-ai@rush.edu",
+    author_email="[Contact Information Removed]",
     description="AI-powered medical school admissions ranking system",
     long_description=long_description,
     long_description_content_type="text/markdown",

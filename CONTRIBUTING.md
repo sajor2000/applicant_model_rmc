@@ -246,6 +246,6 @@ Closes #123
 Feel free to:
 - Open an issue for questions
 - Join our discussions
-- Email: admissions-ai@rush.edu
+- Email: [Contact Information Removed]
 
 Thank you for contributing to making medical admissions more fair and efficient!

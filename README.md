@@ -174,7 +174,7 @@ If you use this system in your research, please cite:
 
 For questions or support:
 - Technical Issues: [Open an issue](https://github.com/yourusername/rush-ai-admissions/issues)
-- General Inquiries: admissions-ai@rush.edu
+- General Inquiries: [Contact Information Removed]
 
 ---
 
