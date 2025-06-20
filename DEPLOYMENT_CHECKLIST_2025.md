@@ -97,7 +97,7 @@
 
 ## Support Resources
 
-- **Technical Contact**: juan_rojas@rush.edu
+- **Technical Contact**: [Contact Email Removed]
 - **Documentation**: output/RMC_AI_Admissions_TRIPOD_Report_Final.html
 - **GitHub Repository**: [Add your repository URL]
 - **Emergency Support**: [Add contact info]

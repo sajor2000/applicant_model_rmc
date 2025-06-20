@@ -3,7 +3,7 @@
 ## Overview
 This AI-powered system assists the Rush Medical College admissions committee by analyzing applications and predicting reviewer scores with 93.8% accuracy. The system uses GPT-4o for essay analysis and XGBoost for classification.
 
-**Contact:** Juan C. Rojas, MD, MS (juan_rojas@rush.edu)
+**Contact:** Juan C. Rojas, MD, MS ([Contact Email Removed])
 
 ## Quick Start for 2025 Admissions
 
@@ -133,7 +133,7 @@ export OPENAI_API_KEY="your-api-key-here"
 
 ## Support
 For technical issues or questions:
-- Contact: juan_rojas@rush.edu
+- Contact: [Contact Email Removed]
 - Documentation: See `output/RMC_AI_Admissions_TRIPOD_Report_Final.html`
 
 ---

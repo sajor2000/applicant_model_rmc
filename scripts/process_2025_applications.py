@@ -4,7 +4,7 @@ Production Pipeline for Rush Medical College AI Admissions System
 Process 2025 Applications with Essay Analysis and Score Prediction
 
 Author: Juan C. Rojas, MD, MS
-Contact: juan_rojas@rush.edu
+Contact: [Contact Email Removed]
 Last Updated: December 2024
 """
 

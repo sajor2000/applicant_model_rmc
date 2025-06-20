@@ -45,7 +45,7 @@ git push -u origin main
 ## Important Notes:
 - Repository is set to PRIVATE for security
 - Contains trained models and processing pipelines
-- Contact: juan_rojas@rush.edu for access requests
+- Contact: [Contact Email Removed] for access requests
 - All code ready for production use in 2025
 
 ## Next Steps After Push:
